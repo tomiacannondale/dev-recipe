@@ -1,0 +1,9 @@
+emacsd:
+  repository: https://github.com/tomiacannondale/dot.emacs.d
+zshd:
+  repository: https://github.com/tomiacannondale/dot.zsh.d
+homed:
+  path: "/home/ishiduka"
+docker:
+  users:
+    - ishiduka
