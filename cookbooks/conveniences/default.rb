@@ -9,11 +9,11 @@ package "source-highlight"
 package "wget"
 package "jq"
 package "redis"
-package "mysql-client-5.7"
+package "mysql-client"
 package "autojump"
 
 # for rails(maybe)
 package "libsqlite3-dev"
-package "libmysqld-dev"
+package "libmysqlclient-dev"
 
 include_recipe "docker::install"
