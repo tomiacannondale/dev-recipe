@@ -4,6 +4,12 @@
 guest os
 
 ```
+sudo apt-get install -y gcc make perl
+# maybe only Virtualbox6.1
+sudo apt-get install virtualbox-guest-x11
+```
+
+```
 LANG=C xdg-user-dirs-gtk-update
 sudo apt-get install -y openssh-server
 ```
