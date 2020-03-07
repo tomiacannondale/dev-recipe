@@ -1,0 +1,7 @@
+include_recipe "../cookbooks/conveniences"
+include_recipe "../cookbooks/prepare_ruby"
+include_recipe "../cookbooks/anyenv"
+include_recipe "../cookbooks/emacs"
+include_recipe "../cookbooks/emacsd"
+include_recipe "../cookbooks/pt"
+include_recipe "../cookbooks/zshd"

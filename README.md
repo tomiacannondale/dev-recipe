@@ -19,7 +19,7 @@ VBoxManage modifyvm "xubuntu" --natpf1 "guestssh,tcp,,2222,,22"
 host os(run itamae)
 
 ```
-bundle exec itamae ssh -u <guest os username> -h localhost -p 2222 recipe.rb -y node.yml
+bundle exec itamae ssh -u <guest os username> -h localhost -p 2222 roles/ubuntu.rb -y node.yml
 ```
 
 guest os
