@@ -1,5 +1,5 @@
 include_recipe "../cookbooks/conveniences"
-include_recipe "../cookbooks/prepare_ruby"
+include_recipe "../cookbooks/ruby_dependencies"
 include_recipe "../cookbooks/anyenv"
 include_recipe "../cookbooks/emacs"
 include_recipe "../cookbooks/emacsd"
